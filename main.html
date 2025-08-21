@@ -3,7 +3,6 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dog Adoption Application</title>
 </head>
 
@@ -11,30 +10,32 @@
   <h1>Dog Adoption Application</h1>
 
   <form>
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Name" required>
+    <!-- Name field -->
+	  <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Name">
 
     <br><br>
 
-    <label for="phone">Phone Number</label>
-    <input type="text" id="phone" name="phone" placeholder="Phone Number" required>
+    <!-- Phone Number field -->
+	    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" placeholder="Phone Number">
 
     <br><br>
 
-    <label for="address">Address</label>
-    <input type="text" id="address" name="address" placeholder="Address" required>
+    <!-- Address field -->
+	    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Address">
 
     <br><br>
 
-    <label>
-      <input type="checkbox" id="checkbox" name="checkbox" value="Have you ever lived with a Dog before?">
-      Have you ever lived with a Dog before?
-    </label>
+    <!-- Checkbox -->
+    <input type="checkbox" id="checkbox" name="checkbox" value="Have you ever lived with a Dog before?"> Have you ever lived with a Dog before?
 
     <br><br>
 
+    <!-- Multi-select breeds -->
     <label for="multiSelect">Please select your preferred breeds</label>
-    <select id="multiSelect" name="multiSelect" multiple required>
+    <select id="multiSelect" name="multiSelect" multiple>
       <option value="labrador">Labrador</option>
       <option value="germanShepherd">German Shepherd</option>
       <option value="beagle">Beagle</option>
@@ -42,10 +43,9 @@
 
     <br><br>
 
-    <input type="submit" value="Submit">
+    <!-- Submit button -->
+    <input type="submit" id="submit" name="submit" value="Submit">
   </form>
-
-
 
 </body>
 </html>
